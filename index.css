@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+}
+
+.nav-bar{
+    display:flex;
+    flex-flow:row wrap;
+    flex: 0 0 120px;
+}
+
+.nav-item{
+    list-style-type:none;
+    padding: 10px 20px;
+    
+}
+.nav-item::before{
+    content:">>"
+}
+.nav-item:nth-child(even){
+    background:red;
+}
+.nav-item:nth-child(odd){
+    background-color: #888;
+}
+.nav-bar ~ div{
+    background-color: #ffffff;
+}
+.nav-bar > li{
+    border:1px solid rgba(0,255,255,0.5) ;
+}
+
+.card-container{
+    position: relative;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    gap: 15px;
+    animation: card-animation 2s ease-in-out 1s normal reverse running;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border:none;
+    box-shadow: 0 0 5px 5px #ddd;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px ;
+}
+@keyframes card-animation {
+    from{
+        top:50%;
+        bottom:50%;
+        width:0;
+    }
+    to{
+        width: 100%;
+    }
+}
