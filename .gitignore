@@ -1,5 +1,0 @@
-# to ignore the directory
-git-gnore/
-
-!git-gnore/practice/practice.txt
-*.patch
