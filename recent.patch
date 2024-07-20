@@ -1,0 +1,38 @@
+commit e425301d27560fc38d480e43fe98a4ca69120ab8
+Author: yravindraswamy <yravindraswamy@gmail.com>
+Date:   Thu Jul 11 08:59:26 2024 +0530
+
+    dslka
+
+diff --git a/git-gnore/yrramneedi.txt b/git-gnore/yrramneedi.txt
+deleted file mode 100644
+index 78bfbc4..0000000
+--- a/git-gnore/yrramneedi.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-hello Ravindra,
+-are you learning the language
+\ No newline at end of file
+diff --git a/name.txt b/name.txt
+deleted file mode 100644
+index 3d287fa..0000000
+--- a/name.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-My Name is git I am teaching you now.
+\ No newline at end of file
+
+commit 41aa8a47fd31adc1d4821e1f5f4db3554b0516cf
+Author: yravindraswamy <yravindraswamy@gmail.com>
+Date:   Thu Jul 11 08:54:32 2024 +0530
+
+    name filex
+
+diff --git a/name.txt b/name.txt
+new file mode 100644
+index 0000000..3d287fa
+--- /dev/null
++++ b/name.txt
+@@ -0,0 +1 @@
++My Name is git I am teaching you now.
+\ No newline at end of file
